@@ -1,3 +1,11 @@
+<?php
+
+$trash_star=`http https://api.github.com/repos/bsdpunk/trash/stargazers | python -m json.tool | grep login | wc -l`;
+$resume_star=`http https://api.github.com/repos/bsdpunk/resume/stargazers | python -m json.tool | grep login | wc -l`;
+$bt_star=`http https://api.github.com/repos/bsdpunk/beastietools/stargazers | python -m json.tool | grep login | wc -l`;
+
+?>
+
 <pre>
 File: *manpages*,  Node: dusty,  Up: (dir)
 
@@ -24,8 +32,17 @@ SYNOPSIS
 
 DESCRIPTION
        dusty is a Unix and Linux systems administrator as well as a python, 
-golang, and node developer. With more than 10 years experience in syst-
+       golang, and node developer. With more than 10 years experience in syst-
        ems administration, as well as five plus years in development.
+
+
+GITHUB STATS
+        Favored Projects:
+                <a href="https://github.com/bsdpunk/trash">Trash</a> A shell for Managing Virtualization/Containers | Stars: <?php echo $trash_star ?>
+                <a href="https://github.com/bsdpunk/resume">This Resume</a> This Resume | Stars: <?php echo $resume_star ?>
+                <a href="https://github.com/bsdpunk/beastietools">BeastieTools</a> Network Discovery Shell/Cli | Stars: <?php echo $bt_star ?>
+
+
 
 WORK HISTORY
        
