@@ -1,8 +1,8 @@
 <?php
 
-$trash_star=`http https://api.github.com/repos/bsdpunk/trash/stargazers | python -m json.tool | grep login | wc -l`;
-$resume_star=`http https://api.github.com/repos/bsdpunk/resume/stargazers | python -m json.tool | grep login | wc -l`;
-$bt_star=`http https://api.github.com/repos/bsdpunk/beastietools/stargazers | python -m json.tool | grep login | wc -l`;
+#$trash_star=`/bin/http https://api.github.com/repos/bsdpunk/trash/stargazers | /bin/python -m json.tool | /bin/grep login | /bin/wc -l`;
+#$resume_star=`/bin/http https://api.github.com/repos/bsdpunk/resume/stargazers | /bin/python -m json.tool | /bin/grep login | /bin/wc -l`;
+#$bt_star=`/bin/http https://api.github.com/repos/bsdpunk/beastietools/stargazers | /bin/python -m json.tool | /bin/grep login | /bin/wc -l`;
 
 ?>
 
@@ -38,10 +38,9 @@ DESCRIPTION
 
 GITHUB STATS
         Favored Projects:
-                <a href="https://github.com/bsdpunk/trash">Trash</a> A shell for Managing Virtualization/Containers | Stars: <?php echo $trash_star ?>
-                <a href="https://github.com/bsdpunk/resume">This Resume</a> This Resume | Stars: <?php echo $resume_star ?>
-                <a href="https://github.com/bsdpunk/beastietools">BeastieTools</a> Network Discovery Shell/Cli | Stars: <?php echo $bt_star ?>
-
+                <a href="https://github.com/bsdpunk/trash">Trash</a> A shell for Managing Virtualization/Containers  
+                <a href="https://github.com/bsdpunk/resume">This Resume</a> This Resume
+                <a href="https://github.com/bsdpunk/beastietools">BeastieTools</a> Network Discovery Shell/Cli
 
 
 WORK HISTORY
