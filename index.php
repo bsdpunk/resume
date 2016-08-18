@@ -21,13 +21,6 @@ SYNOPSIS
        dusty --help
        dusty -V
        dusty --version
-       dusty [-[+]aABcCdeEfFgGiIJKLmMnNqQrRsSuUVwWX~]
-            [-b space] [-h lines] [-j line] [-k keyfile]
-            [-{oO} logfile] [-p pattern] [-P prompt] [-t tag]
-            [-T tagsfile] [-x tab,...] [-y lines] [-[z] lines]
-            [-# shift] [+[+]cmd] [--] [filename]...
-       (See  the  OPTIONS section for alternate option syntax with long option
-       names.)
 
 
 DESCRIPTION
@@ -44,7 +37,26 @@ GITHUB STATS
 
 
 WORK HISTORY
-       
+
+       Systems Administrator/Web Developer                                                                          
+       June 2015 – Present  Freelance 
+                                                                                                                                                          
+       Nashville, TN  Worked with a variety of clients in the telecom industry, 
+       upporting web development efforts to implement evolving business requirements.
+       Developed a telecommunications portal for buying and selling cell phones.  
+       reated multiple Wordpress and informational sites. As well as other e-commerce 
+       ites.
+       Used Django Web Development framework to create databases backed 
+       pplications, utilized MySQL.
+       PHP Development with Propel, an operational/relational database 
+       anagement tool.
+       Developed database driven Node.js application for online surveys, similar 
+       o a tool like Survey Monkey.
+       Used jQuery to create interactive and response web user interface for web 
+       pplications.
+       Developed complex backend Perl scripts, utilized ModPerl and CGI.
+
+
        Linux Administrator                             August 2014 – July 2015 
        Rackspace Hosting                                       San Antonio, TX
 
@@ -159,9 +171,9 @@ WORK HISTORY
        SEO experience 
        
        Network Consultant                                                                                                        
-       ecember 2007 - September 2008 Dynamic Edge                                                                     
-       ashville, TN/Ann Arbor, MI Wide Variety of networking and OS experience, with a 
-       ocus on 2003 SBS, and Debian Linux
+       December 2007 - September 2008 Dynamic Edge                                                                     
+       Nashville, TN/Ann Arbor, MI Wide Variety of networking and OS experience, with a 
+       Focus on 2003 SBS, and Debian Linux
        Perl and PHP web app development  SEO experience
        As a consultant I interacted with the customer in such a way that I made 
        ecommendations and explained complex issues
